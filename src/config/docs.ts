@@ -1,0 +1,14 @@
+import path from 'path';
+import YAML from 'yamljs';
+
+import config from './env';
+
+const docIndexFile = path.join(path.resolve(__dirname), '..', 'docs', 'index.yaml');
+const docsFile = YAML.load(docIndexFile);
+
+let serverUrl = docsFile['servers'][0]['url'].replace('HOST_IP', config.app.ip)
+serverUrl = serverUrl.replace('HOST_PORT', config.app.port);
+
+docsFile['servers'][0]['url'] = serverUrl
+
+export const getDocsAsObject = () => docsFile;
