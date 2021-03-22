@@ -40,8 +40,8 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new copyPlugin({
       patterns: [
-        { from: 'spec-docs', to: 'spec-docs', toType: 'dir' },
-        { from: '.env', to: '.env', toType: 'file' }
+        { from: '.env', to: '.env', toType: 'file' },
+        { from: 'spec-docs', to: 'spec-docs', toType: 'dir' }
       ]
     })
   ]
