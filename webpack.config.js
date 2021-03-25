@@ -41,7 +41,7 @@ module.exports = {
     new copyPlugin({
       patterns: [
         { from: '.env', to: '.env', toType: 'file' },
-        { from: 'spec-docs', to: 'spec-docs', toType: 'dir' }
+        { from: 'api-docs', to: 'api-docs', toType: 'dir' }
       ]
     })
   ]

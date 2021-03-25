@@ -15,7 +15,7 @@ RUN npm run build
 # remove devDependencies
 RUN npm prune
 # remove files outside of 'build' folder
-RUN rm -rf src spec-docs
+RUN rm -rf src api-docs
 RUN rm -f package.json \
 package-lock.json \
 LICENSE \
