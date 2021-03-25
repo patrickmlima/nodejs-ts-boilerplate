@@ -10,3 +10,5 @@ initLoaders(app);
 app.listen(config.app.port, () => {
     console.log('Server is up NOW');
 });
+
+export default app;
