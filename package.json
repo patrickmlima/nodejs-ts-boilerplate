@@ -5,8 +5,9 @@
   "main": "src/app.ts",
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
-    "start": "nodemon",
-    "build": "webpack --progress"
+    "lint": "tslint --project .",
+    "build": "webpack --progress",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",

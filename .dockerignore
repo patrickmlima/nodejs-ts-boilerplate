@@ -3,7 +3,17 @@
 
 Dockerfile
 README.md
-
 tslint.json
+tsconfig.json
+webpack.config.js
+.env
+.env.example
+jasmine.json
+LICENSE
+Makefile
+nodemon.json
+
 node_modules
-build
+api-docs
+src
+tests
