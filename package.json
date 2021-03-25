@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-boilerplate",
+  "name": "nodejs-typescript-boilerplate",
   "version": "1.0.0",
-  "description": "Proposed boilerplate for new NodeJS projects",
+  "description": "Proposed boilerplate for new NodeJS projects using typescript",
   "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
